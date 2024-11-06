@@ -1,0 +1,5 @@
+git remote add origin (url)
+git push -u origin main
+git fetch origin main:tmp
+git rebase tmp
+git remote -v
